@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button{
+  padding: 10px;
+}
+
+/* color in row in tables for selction*/
+.hoverRow {
+  background-color: rgba(255, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.image-preview{
+  width: 150px;
+  height: auto;
+  background: url(http://goo.gl/vyAs27) no-repeat scroll 0 0;
+}
+
+
